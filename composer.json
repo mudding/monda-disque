@@ -1,0 +1,32 @@
+{
+  "name": "mudding/monda-disque",
+  "description": "PHP library for Disque, an in-memory, distributed job queue",
+  "type": "library",
+  "keywords": [
+    "disque",
+    "job",
+    "queue"
+  ],
+  "homepage": "https://github.com/mudding/monda-disque",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "mudding",
+      "email": "1044601446@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.6",
+    "scrutinizer/ocular": "~1.1",
+    "mockery/mockery": "0.9.*",
+    "marlonfan/disque-php": "^2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "mq\\": ""
+    }
+  }
+}
